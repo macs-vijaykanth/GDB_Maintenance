@@ -1,0 +1,31 @@
+client_name: "Test Email"
+
+instance: "arcgissql.cze6grlgnvza.us-east-1.rds.amazonaws.com"
+instance_type: "sql server"
+admin_user: "admin"
+admin_password: "eNyVHCnww6AWbgRx_kPUnmzEt*"
+
+# Optional global SDE credentials
+sde_user: "sde"
+sde_password: "M1llPond"
+
+databases:
+  - name: "Main"
+    data_owner: "sde"
+    data_owner_password: "M1llPond"
+
+  - name: "SewerDrainUN"
+    data_owner: "sde"
+    data_owner_password: "M1llPond"
+    
+  - name: "WaterUN"
+    data_owner: "sde"
+    data_owner_password: "M1llPond"
+
+email:
+  smtp_username: "bWFjc25vdGlmaWNhdGlvbnNAY3liZXJ0ZWNoLmNvbQ=="
+  smtp_password: "QVg1QDg4SDY="
+  smtp_server: "smtp.office365.com"
+  smtp_port: "587"
+  email_recipients: ["MACSOperate@cybertech.com"]
+
